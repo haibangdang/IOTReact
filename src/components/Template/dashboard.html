@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IOT</title>
+    <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 10]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="#">
+    <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="#">
+    <!-- Favicon icon -->
+    <link rel="icon" href="libraries\assets\images\favicon.ico" type="image/x-icon">
+
+    <!-- Google font--><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="libraries\bower_components\bootstrap\css\bootstrap.min.css">
+    <!-- themify-icons line icon -->
+    <link rel="stylesheet" type="text/css" href="libraries\assets\icon\themify-icons\themify-icons.css">
+    <!-- ico font -->
+    <link rel="stylesheet" type="text/css" href="libraries\assets\icon\icofont\css\icofont.css">
+    <!-- feather Awesome -->
+    <link rel="stylesheet" type="text/css" href="libraries\assets\icon\feather\css\feather.css">
+    <!-- Data Table Css -->
+    <link rel="stylesheet" type="text/css" href="libraries\bower_components\datatables.net-bs4\css\dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="libraries\assets\pages\data-table\css\buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="libraries\bower_components\datatables.net-responsive-bs4\css\responsive.bootstrap4.min.css">
+
+    <!-- jpro forms css -->
+    <link rel="stylesheet" type="text/css" href="libraries\assets\pages\j-pro\css\demo.css">
+    <link rel="stylesheet" type="text/css" href="libraries\assets\pages\j-pro\css\font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="libraries\assets\pages\j-pro\css\j-forms.css">
+
+    <!--forms-wizard css-->
+    <link rel="stylesheet" type="text/css" href="libraries\bower_components\jquery.steps\css\jquery.steps.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="styles\style.css">
+    <link rel="stylesheet" type="text/css" href="libraries\assets\css\jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+</head>
+
+<body>
+<!-- Pre-loader start -->
+<div class="theme-loader">
+    <div class="ball-scale">
+        <div class='contain'>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Pre-loader end -->
+<div id="pcoded" class="pcoded">
+    <div class="pcoded-overlay-box"></div>
+    <div class="pcoded-container navbar-wrapper">
+
+        <nav class="navbar header-navbar pcoded-header">
+            <div class="navbar-wrapper">
+                <div class="navbar-logo">
+                    <a class="mobile-menu" id="mobile-collapse" href="#!">
+                        <i class="feather icon-menu"></i>
+                    </a>
+                    <a href="/">
+                        <img class="img-fluid" src="images\logo.png'" alt="Theme-Logo" width="50px" height="50px">
+                    </a>
+                    <a class="mobile-options">
+                        <i class="feather icon-more-horizontal"></i>
+                    </a>
+                </div>
+
+                <div class="navbar-container container-fluid">
+                    <ul class="nav-left">
+                        <li class="header-search">
+                            <div class="main-search morphsearch-search">
+                                <div class="input-group">
+                                    <span class="input-group-addon search-close"><i class="feather icon-x"></i></span>
+                                    <input type="text" class="form-control">
+                                    <span class="input-group-addon search-btn"><i class="feather icon-search"></i></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#!" onclick="javascript:toggleFullScreen()">
+                                <i class="feather icon-maximize full-screen"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav-right">
+                        <li class="header-notification">
+                            <div class="dropdown-primary dropdown">
+                                <div class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="feather icon-bell"></i>
+                                    <span class="badge bg-c-pink">5</span>
+                                </div>
+                                <ul class="show-notification notification-view dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                    <li>
+                                        <h6>Notifications</h6>
+                                        <label class="label label-danger">New</label>
+                                    </li>
+                                    <li>
+                                        <div class="media">
+                                            <img class="d-flex align-self-center img-radius" src="libraries\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="notification-user">John Doe</h5>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <span class="notification-time">30 minutes ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media">
+                                            <img class="d-flex align-self-center img-radius" src="libraries\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="notification-user">Joseph William</h5>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <span class="notification-time">30 minutes ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media">
+                                            <img class="d-flex align-self-center img-radius" src="libraries\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="notification-user">Sara Soudein</h5>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <span class="notification-time">30 minutes ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- <li class="header-notification">
+                            <div class="dropdown-primary dropdown">
+                                <div class="displayChatbox dropdown-toggle" data-toggle="dropdown">
+                                    <i class="feather icon-message-square"></i>
+                                    <span class="badge bg-c-green">3</span>
+                                </div>
+                            </div>
+                        </li> -->
+
+                        <li class="header-notification">
+                            <div class="dropdown-primary dropdown">
+                                <div class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-globe"></i>
+                                    <span class="badge bg-simple-c-blue">En</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="user-profile header-notification">
+                            <div class="dropdown-primary dropdown">
+                                <div class="dropdown-toggle" data-toggle="dropdown">
+                                    <img src="libraries\assets\images\avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                                    <span>John Doe</span>
+                                    <i class="feather icon-chevron-down"></i>
+                                </div>
+                                <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                    <li>
+                                        <a href="#!">
+                                            <i class="feather icon-settings"></i> Settings
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/user-profile">
+                                            <i class="feather icon-user"></i> Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="email-inbox.htm">
+                                            <i class="feather icon-mail"></i> My Messages
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="auth-lock-screen.htm">
+                                            <i class="feather icon-lock"></i> Lock Screen
+                                        </a>
+                                    </li> -->
+                                    <li>
+                                        <a href="auth-normal-sign-in.htm">
+                                            <i class="feather icon-log-out"></i> Logout
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sidebar chat start -->
+        <div id="sidebar" class="users p-chat-user showChat">
+            <div class="had-container">
+                <div class="card card_main p-fixed users-main">
+                    <div class="user-box">
+                        <div class="chat-inner-header">
+                            <div class="back_chatBox">
+                                <div class="right-icon-control">
+                                    <input type="text" class="form-control  search-text" placeholder="Search Friend" id="search-friends">
+                                    <div class="form-icon">
+                                        <i class="icofont icofont-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-friend-list">
+                            <div class="media userlist-box" data-id="1" data-status="online" data-username="Josephin Doe" data-toggle="tooltip" data-placement="left" title="Josephin Doe">
+                                <a class="media-left" href="#!">
+                                    <img class="media-object img-radius img-radius" src="libraries\assets\images\avatar-3.jpg" alt="Generic placeholder image ">
+                                    <div class="live-status bg-success"></div>
+                                </a>
+                                <div class="media-body">
+                                    <div class="f-13 chat-header">Josephin Doe</div>
+                                </div>
+                            </div>
+                            <div class="media userlist-box" data-id="2" data-status="online" data-username="Lary Doe" data-toggle="tooltip" data-placement="left" title="Lary Doe">
+                                <a class="media-left" href="#!">
+                                    <img class="media-object img-radius" src="libraries\assets\images\avatar-2.jpg" alt="Generic placeholder image">
+                                    <div class="live-status bg-success"></div>
+                                </a>
+                                <div class="media-body">
+                                    <div class="f-13 chat-header">Lary Doe</div>
+                                </div>
+                            </div>
+                            <div class="media userlist-box" data-id="3" data-status="online" data-username="Alice" data-toggle="tooltip" data-placement="left" title="Alice">
+                                <a class="media-left" href="#!">
+                                    <img class="media-object img-radius" src="libraries\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                    <div class="live-status bg-success"></div>
+                                </a>
+                                <div class="media-body">
+                                    <div class="f-13 chat-header">Alice</div>
+                                </div>
+                            </div>
+                            <div class="media userlist-box" data-id="4" data-status="online" data-username="Alia" data-toggle="tooltip" data-placement="left" title="Alia">
+                                <a class="media-left" href="#!">
+                                    <img class="media-object img-radius" src="libraries\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                                    <div class="live-status bg-success"></div>
+                                </a>
+                                <div class="media-body">
+                                    <div class="f-13 chat-header">Alia</div>
+                                </div>
+                            </div>
+                            <div class="media userlist-box" data-id="5" data-status="online" data-username="Suzen" data-toggle="tooltip" data-placement="left" title="Suzen">
+                                <a class="media-left" href="#!">
+                                    <img class="media-object img-radius" src="libraries\assets\images\avatar-2.jpg" alt="Generic placeholder image">
+                                    <div class="live-status bg-success"></div>
+                                </a>
+                                <div class="media-body">
+                                    <div class="f-13 chat-header">Suzen</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar inner chat start-->
+        <div class="showChat_inner">
+            <div class="media chat-inner-header">
+                <a class="back_chatBox">
+                    <i class="feather icon-chevron-left"></i> Josephin Doe
+                </a>
+            </div>
+            <div class="media chat-messages">
+                <a class="media-left photo-table" href="#!">
+                    <img class="media-object img-radius img-radius m-t-5" src="libraries\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                </a>
+                <div class="media-body chat-menu-content">
+                    <div class="">
+                        <p class="chat-cont">I'm just looking around. Will you tell me something about yourself?</p>
+                        <p class="chat-time">8:20 a.m.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="media chat-messages">
+                <div class="media-body chat-menu-reply">
+                    <div class="">
+                        <p class="chat-cont">I'm just looking around. Will you tell me something about yourself?</p>
+                        <p class="chat-time">8:20 a.m.</p>
+                    </div>
+                </div>
+                <div class="media-right photo-table">
+                    <a href="#!">
+                        <img class="media-object img-radius img-radius m-t-5" src="libraries\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                    </a>
+                </div>
+            </div>
+            <div class="chat-reply-box p-b-20">
+                <div class="right-icon-control">
+                    <input type="text" class="form-control search-text" placeholder="Share Your Thoughts">
+                    <div class="form-icon">
+                        <i class="feather icon-navigation"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar inner chat end-->
+        <div class="pcoded-main-container">
+            <div class="pcoded-wrapper">
+                <nav class="pcoded-navbar">
+                    <div class="pcoded-inner-navbar main-menu">
+                        <div class="pcoded-navigatio-lavel">Navigation</div>
+                        <ul class="pcoded-item pcoded-left-item">
+                            <li>
+                                <a href="/">
+                                    <span class="pcoded-micon"><i class="feather icon-home"></i></span>
+                                    <span class="pcoded-mtext">Dashboard</span>
+                                </a>
+                                <!-- <ul class="pcoded-submenu">
+                                    <li class="active">
+                                        <a href="index.htm">
+                                            <span class="pcoded-mtext">Default</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="dashboard-crm.htm">
+                                            <span class="pcoded-mtext">CRM</span>
+                                        </a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="dashboard-analytics.htm">
+                                            <span class="pcoded-mtext">Analytics</span>
+                                            <span class="pcoded-badge label label-info ">NEW</span>
+                                        </a>
+                                    </li>
+                                </ul> -->
+                            </li>
+                            <!-- <li class="pcoded-hasmenu">
+                                <a href="javascript:void(0)">
+                                    <span class="pcoded-micon"><i class="feather icon-sidebar"></i></span>
+                                    <span class="pcoded-mtext">Page layouts</span>
+                                    <span class="pcoded-badge label label-warning">NEW</span>
+                                </a>
+                                <ul class="pcoded-submenu">
+                                    <li class=" pcoded-hasmenu">
+                                        <a href="javascript:void(0)">
+                                            <span class="pcoded-mtext">Vertical</span>
+                                        </a>
+                                        <ul class="pcoded-submenu">
+                                            <li class=" ">
+                                                <a href="menu-static.htm">
+                                                    <span class="pcoded-mtext">Static Layout</span>
+                                                </a>
+                                            </li>
+                                            <li class=" ">
+                                                <a href="menu-header-fixed.htm">
+                                                    <span class="pcoded-mtext">Header Fixed</span>
+                                                </a>
+                                            </li>
+                                            <li class=" ">
+                                                <a href="menu-compact.htm">
+                                                    <span class="pcoded-mtext">Compact</span>
+                                                </a>
+                                            </li>
+                                            <li class=" ">
+                                                <a href="menu-sidebar.htm">
+                                                    <span class="pcoded-mtext">Sidebar Fixed</span>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class=" pcoded-hasmenu">
+                                        <a href="javascript:void(0)">
+                                            <span class="pcoded-mtext">Horizontal</span>
+                                        </a>
+                                        <ul class="pcoded-submenu">
+                                            <li class=" ">
+                                                <a href="menu-horizontal-static.htm" target="_blank">
+                                                    <span class="pcoded-mtext">Static Layout</span>
+                                                </a>
+                                            </li>
+                                            <li class=" ">
+                                                <a href="menu-horizontal-fixed.htm" target="_blank">
+                                                    <span class="pcoded-mtext">Fixed layout</span>
+                                                </a>
+                                            </li>
+                                            <li class=" ">
+                                                <a href="menu-horizontal-icon.htm" target="_blank">
+                                                    <span class="pcoded-mtext">Static With Icon</span>
+                                                </a>
+                                            </li>
+                                            <li class=" ">
+                                                <a href="menu-horizontal-icon-fixed.htm" target="_blank">
+                                                    <span class="pcoded-mtext">Fixed With Icon</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="menu-bottom.htm">
+                                            <span class="pcoded-mtext">Bottom Menu</span>
+                                        </a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="box-layout.htm" target="_blank">
+                                            <span class="pcoded-mtext">Box Layout</span>
+                                        </a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="menu-rtl.htm" target="_blank">
+                                            <span class="pcoded-mtext">RTL</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li> -->
+                            <li class="">
+                                <a href="/navbar-light">
+                                    <span class="pcoded-micon"><i class="feather icon-server"></i></span>
+                                    <span class="pcoded-mtext">Projects</span>
+                                </a>
+                            </li>
+
+                            <li class="">
+                                <a href="/navbar-light">
+                                    <span class="pcoded-micon"><i class="feather icon-layers"></i></span>
+                                    <span class="pcoded-mtext">Stations</span>
+                                </a>
+                            </li>
+
+                            <li class="active">
+                                <a href="/devices">
+                                    <span class="pcoded-micon"><i class="feather icon-instagram"></i></span>
+                                    <span class="pcoded-mtext">Devices</span>
+                                </a>
+                            </li>
+
+                            <li class="">
+                                <a href="/navbar-light">
+                                    <span class="pcoded-micon"><i class="feather icon-bell"></i></span>
+                                    <span class="pcoded-mtext">Notifications</span>
+                                </a>
+                            </li>
+
+                            <li class="">
+                                <a href="/navbar-light">
+                                    <span class="pcoded-micon"><i class="feather icon-check"></i></span>
+                                    <span class="pcoded-mtext">Tasks</span>
+                                </a>
+                            </li>
+
+                            <li class="">
+                                <a href="/navbar-light">
+                                    <span class="pcoded-micon"><i class="feather icon-briefcase"></i></span>
+                                    <span class="pcoded-mtext">Reports</span>
+                                </a>
+                            </li>
+
+                            <li class="">
+                                <a href="/navbar-light">
+                                    <span class="pcoded-micon"><i class="feather icon-settings"></i></span>
+                                    <span class="pcoded-mtext">Settings</span>
+                                </a>
+                            </li>
+
+
+                            <!-- <li class="pcoded-hasmenu">
+                                <a href="javascript:void(0)">
+                                    <span class="pcoded-micon"><i class="feather icon-layers"></i></span>
+                                    <span class="pcoded-mtext">Widget</span>
+                                    <span class="pcoded-badge label label-danger">100+</span>
+                                </a>
+                                <ul class="pcoded-submenu">
+                                    <li class=" ">
+                                        <a href="widget-statistic.htm">
+                                            <span class="pcoded-mtext">Statistic</span>
+                                        </a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="widget-data.htm">
+                                            <span class="pcoded-mtext">Data</span>
+                                        </a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="widget-chart.htm">
+                                            <span class="pcoded-mtext">Chart Widget</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li> -->
+                        </ul>
+                    
+                        <div class="pcoded-navigatio-lavel">Support</div>
+                        <ul class="pcoded-item pcoded-left-item">
+                            <li class="">
+                                <a href="http://html.codedthemes.com/Adminty/doc" target="_blank">
+                                    <span class="pcoded-micon"><i class="feather icon-monitor"></i></span>
+                                    <span class="pcoded-mtext">Documentation</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="#" target="_blank">
+                                    <span class="pcoded-micon"><i class="feather icon-help-circle"></i></span>
+                                    <span class="pcoded-mtext">Submit Issue</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="pcoded-content">
+                    <div class="pcoded-inner-content">
+                        <!-- Main-body start -->
+                        <div class="main-body">
+                            <div class="page-wrapper">
+                                <!-- Page-header start -->
+                                <div class="page-header">
+                                    <div class="row align-items-end">
+                                        <div class="col-lg-8">
+                                            <div class="page-header-title">
+                                                <div class="d-inline">
+                                                    <h4>DEVICES</h4>
+                                                    <!-- <span>Easy to customise core stylesheets</span> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="page-header-breadcrumb">
+                                                <ul class="breadcrumb-title">
+                                                    <li class="breadcrumb-item">
+                                                        <a href="/"> <i class="feather icon-home"></i> </a>
+                                                    </li>
+                                                    <li class="breadcrumb-item"><a href="#!">Devices</a>
+                                                    </li>
+                                                    <!-- <li class="breadcrumb-item"><a href="#!">Styling</a>
+                                                    </li> -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Page-header end -->
+                                    
+                                    <!-- Page-body start -->
+                                    <div class="page-body">
+                                        <!-- Base style - Hover table start -->
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <!-- <h5>Base Style - Hover</h5>
+                                                <span>This example shows DataTables with just the hover class specified. This class will instruct DataTables' styling to highlight a row when the mouse is hovered over it.</span> -->
+
+                                            </div>
+                                            
+
+                                             <!-- Modal large-->
+                                             <div class="dropdown-primary dropdown" style="margin-left: 94%; width: 100px;">
+                                                <div data-toggle="dropdown">
+                                                    <button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#large-Modal">+</button>
+                                                </div>
+                                                <ul class="show-notification notification-view dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                                    <!-- <li>
+                                                        <h6>Notifications</h6>
+                                                        <label class="label label-danger">New</label>
+                                                    </li> -->
+                                                    <li>
+                                                        <div class="media">
+                                                            <!-- <img class="d-flex align-self-center img-radius" src="{% static 'libraries\assets\images\avatar-4.jpg' %}" alt="Generic placeholder image"> -->
+                                                            <div class="media-body">
+                                                                <!-- <span class="notification-time">Add new device</span> -->
+                                                                <button id="addNewDeviceBtn" type="button" class="btn btn-primary waves-effect" style="width: 100%;" data-toggle="modal" data-target="#addDeviceModal"  >Add new device</button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="media">
+                                                            <!-- <img class="d-flex align-self-center img-radius" src="{% static 'libraries\assets\images\avatar-3.jpg' %}" alt="Generic placeholder image"> -->
+                                                            <div class="media-body">
+                                                            
+                                                                <button id="importDeviceBtn" type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#large-Modal" style="width: 100%;" >Import device</button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+
+
+                                             <!-- <button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#large-Modal" style="margin-left: 90%; width: 100px;">+</button> -->
+                                             <div class="modal fade" id="large-Modal" tabindex="-2" role="dialog">
+                                                 <div class="modal-dialog modal-lg" role="document">
+                                                     <div class="modal-content">
+                                                         <div class="modal-header">
+                                                             <h4 class="modal-title">Modal title</h4>
+                                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                             <span aria-hidden="true">&times;</span>
+                                                             </button>
+                                                         </div>
+                                                         <div class="modal-body">
+                                                             <h5>Default Modal</h5>
+                                                             <p>Import device from CSV.</p>
+                                                         </div>
+                                                         <div class="modal-footer">
+                                                             <button type="button" class="btn btn-default waves-effect " data-dismiss="modal">Close</button>
+                                                             <button type="button" class="btn btn-primary waves-effect waves-light ">Save changes</button>
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+
+
+
+                                             <div class="modal fade" id="addDeviceModal" tabindex="-2" role="dialog">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h4 class="modal-title">Add New Device</h4>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <!-- <h5>Default Modal</h5>
+                                                            <p>Import device from CSV.</p> -->
+
+                                                            
+                                                            <!-- Form wizard with validation card start -->
+                                                            <div class="card">
+                                                                <!-- <div class="card-header">
+                                                                    <h5>Form Wizard With Validation</h5>
+                                                                    <span>Add class of <code>.form-control</code> with <code>&lt;input&gt;</code> tag</span>
+            
+                                                                </div> -->
+                                                                <div class="card-block">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <div id="wizard">
+                                                                                <section>
+                                                                                    <form class="wizard-form" id="example-advanced-form" action="#">
+                                                                                        <h3> Information </h3>
+                                                                                        <fieldset>
+                                                                                            <div class="form-group row" style="display: inline-block; width: 50%">
+                                                                                                <div class="col-md-4 col-lg-6">
+                                                                                                    <label for="deviceName-2" class="block">Device name *</label>
+                                                                                                </div>
+                                                                                                <div class="col-md-8 col-lg-10"">
+                                                                                                    <input id="deviceName-2" name="deviceName" type="text" class="required form-control">
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div class="form-group row" style="display: inline-block; width: 50%">
+                                                                                                <label class="col-md-4 col-lg-6 col-form-label">Type</label>
+                                                                                                <div class="col-sm-10">
+                                                                                                    <select name="select" class="form-control" id="deviceType">
+                                                                                                        <option value="opt1">Select One Value Only</option>
+                                                                                                        <option value="opt2">Type 2</option>
+                                                                                                        <option value="opt3">Type 3</option>
+                                                                                                        <option value="opt4">Type 4</option>
+                                                                                                        <option value="opt5">Type 5</option>
+                                                                                                        <option value="opt6">Type 6</option>
+                                                                                                        <option value="opt7">Type 7</option>
+                                                                                                        <option value="opt8">Type 8</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div class="form-group row">
+                                                                                                <label class="col-md-4 col-lg-6 col-form-label">Serial number</label>
+                                                                                                <div class="col-sm-10">
+                                                                                                    <input type="text" class="form-control" id="deviceSerialNumber">
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div class="form-group row" >
+                                                                                                <label class="col-md-4 col-lg-6 col-form-label">Project</label>
+                                                                                                <div class="col-sm-10">
+                                                                                                    <select name="select" class="form-control" id="deviceProject">
+                                                                                                        <option value="opt1">Select One Value Only</option>
+                                                                                                        <option value="opt2">Type 2</option>
+                                                                                                        <option value="opt3">Type 3</option>
+                                                                                                        <option value="opt4">Type 4</option>
+                                                                                                        <option value="opt5">Type 5</option>
+                                                                                                        <option value="opt6">Type 6</option>
+                                                                                                        <option value="opt7">Type 7</option>
+                                                                                                        <option value="opt8">Type 8</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div class="form-group row" >
+                                                                                                <label class="col-md-4 col-lg-6 col-form-label">Station</label>
+                                                                                                <div class="col-sm-10">
+                                                                                                    <select name="select" class="form-control" id="deviceStation">
+                                                                                                        <option value="opt1">Select One Value Only</option>
+                                                                                                        <option value="opt2">Type 2</option>
+                                                                                                        <option value="opt3">Type 3</option>
+                                                                                                        <option value="opt4">Type 4</option>
+                                                                                                        <option value="opt5">Type 5</option>
+                                                                                                        <option value="opt6">Type 6</option>
+                                                                                                        <option value="opt7">Type 7</option>
+                                                                                                        <option value="opt8">Type 8</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div class="form-group row" >
+                                                                                                <label class="col-md-4 col-lg-6 col-form-label">Status</label>
+                                                                                                <div class="col-sm-10">
+                                                                                                    <select name="select" class="form-control" id="deviceStatus">
+                                                                                                        <option value="opt1">Select One Value Only</option>
+                                                                                                        <option value="opt2">Type 2</option>
+                                                                                                        <option value="opt3">Type 3</option>
+                                                                                                        <option value="opt4">Type 4</option>
+                                                                                                        <option value="opt5">Type 5</option>
+                                                                                                        <option value="opt6">Type 6</option>
+                                                                                                        <option value="opt7">Type 7</option>
+                                                                                                        <option value="opt8">Type 8</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div class="form-group row" >
+                                                                                                <label class="col-md-4 col-lg-6 col-form-label">Parent Device ID</label>
+                                                                                                <div class="col-sm-10">
+                                                                                                    <select name="select" class="form-control" id="deviceParentID">
+                                                                                                        <option value="opt1">Select One Value Only</option>
+                                                                                                        <option value="opt2">Type 2</option>
+                                                                                                        <option value="opt3">Type 3</option>
+                                                                                                        <option value="opt4">Type 4</option>
+                                                                                                        <option value="opt5">Type 5</option>
+                                                                                                        <option value="opt6">Type 6</option>
+                                                                                                        <option value="opt7">Type 7</option>
+                                                                                                        <option value="opt8">Type 8</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                            <div class="form-group row">
+                                                                                                <label class="col-md-4 col-lg-6 col-form-label">Indicator</label>
+                                                                                                <div class="clone-rightside-btn-2">
+                                                                                                    <div class="unit toclone-widget-right toclone">
+                                                                                                        <div class="input" style="display: inline-block;">
+                                                                                                            <!-- <input type="email" placeholder="email"> -->
+
+                                                                                                            <select name="indicator" class="form-control">
+                                                                                                                <option value="opt1">Select One Value Only</option>
+                                                                                                                <option value="opt2">Type 2</option>
+                                                                                                                <option value="opt3">Type 3</option>
+                                                                                                                <option value="opt4">Type 4</option>
+                                                                                                                <option value="opt5">Type 5</option>
+                                                                                                                <option value="opt6">Type 6</option>
+                                                                                                                <option value="opt7">Type 7</option>
+                                                                                                                <option value="opt8">Type 8</option>
+                                                                                                            </select>
+                                                                                                            
+                                                                                                        </div>
+                                                                                                        <button type="button" class="btn btn-primary clone-btn-right clone" style="display: inline-block;">
+                                                                                                            <i class="icofont icofont-plus"></i>
+                                                                                                        </button>
+                                                                                                        <button type="button" class="btn btn-default clone-btn-right delete" style="display: inline-block;">
+                                                                                                            <i class="icofont icofont-minus"></i>
+                                                                                                        </button>
+                                                                                                        <br/>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            
+                                                                                        </fieldset>
+                                                                                        <h3> Set alarm rule </h3>
+                                                                                        <fieldset>
+                                                                                            <div class="form-group row">
+                                                                                                <!-- <label class="col-md-4 col-lg-6 col-form-label">Alarm name</label> -->
+                                                                                                <div class="clone-rightside-btn-2 col-lg-12 col-xl-12">
+                                                                                                    <div class="unit toclone-widget-right toclone">
+                                                                                                        <div class="col-lg-12 col-xl-12">
+                                                                                                            <div class="card">
+                                                                                                                <div class="card-header">
+                                                                                                                    <label for="alarmName" class="block">Alarm Name *</label>
+                                                                                                                    <input name="alarmName" type="text" class="required form-control">
+                                                                                                                </div>
+                                                                                                    
+                                                                                                                <div class="card-block">
+                                                                                                                    <div class="row">
+                                                                                                                        <div class="col-sm-3">
+                                                                                                                            <label class="col-form-label">Severity</label>
+                                                                                                                        </div>
+                                                                                                                        <div class="col-sm-9">
+                                                                                                                            <!-- <input type="text" class="form-control date" data-mask="99/99/9999"> -->
+                                                                                                                            <select name="severity" class="form-control">
+                                                                                                                                <option value="opt1">Select One Value Only</option>
+                                                                                                                                <option value="opt2">Type 2</option>
+                                                                                                                                <option value="opt3">Type 3</option>
+                                                                                                                                <option value="opt4">Type 4</option>
+                                                                                                                                <option value="opt5">Type 5</option>
+                                                                                                                                <option value="opt6">Type 6</option>
+                                                                                                                                <option value="opt7">Type 7</option>
+                                                                                                                                <option value="opt8">Type 8</option>
+                                                                                                                            </select>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <br/>
+                                                                                                    
+                                                                                                                    <div class="row" style="border-color: black; border: 2px solid;">
+                                                                                                                        <div class="col-sm-10">
+                                                                                                                            <!-- <label class="col-form-label">Rule zone</label> -->
+                                                                                                                            <!-- <input name="alarmRule" type="text" class="form-control" placeholder="Rule zone"> -->
+                                                                                                                            <div class="well well-sm" name="alarmRule">
+                                                                                                                                Rule zone
+                                                                                                                            </div>
+                                                                                                                        </div>
+
+
+                                                                                                                        <!-- Edit rule button -->
+                                                                                                                        <div class="col-sm-2">
+                                                                                                                            <!-- <input type="text" class="form-control date2" data-mask="99-99-9999"> -->
+                                                                                                                            <div class="btn-group btn-group-sm" style="float: right;">
+                                                                                                                                <button type="button" class="tabledit-edit-button btn btn-primary waves-effect waves-light" style="float: none;margin: 5px;">
+                                                                                                                                    <span class="icofont icofont-ui-edit"></span>
+                                                                                                                                </button>
+                                                                                                                                <!-- <button type="button" class="tabledit-delete-button btn btn-danger waves-effect waves-light" style="float: none;margin: 5px;">
+                                                                                                                                    <span class="icofont icofont-ui-delete">
+                                                                                                                                    </span>
+                                                                                                                                </button> -->
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+
+                                                                                                                    <div class="row" style="border-color: black; border: 2px solid;">
+                                                                                                                        <div class="col-sm-3">
+                                                                                                                            <label class="col-form-label">Schedule</label>
+                                                                                                                        </div>
+                                                                                                                        <div class="col-sm-9">
+                                                                                                                            <select name="alarmSchedule" class="form-control">
+                                                                                                                                <option value="opt1">Select One Value Only</option>
+                                                                                                                                <option value="opt2">Type 2</option>
+                                                                                                                                <option value="opt3">Type 3</option>
+                                                                                                                                <option value="opt4">Type 4</option>
+                                                                                                                                <option value="opt5">Type 5</option>
+                                                                                                                                <option value="opt6">Type 6</option>
+                                                                                                                                <option value="opt7">Type 7</option>
+                                                                                                                                <option value="opt8">Type 8</option>
+                                                                                                                            </select>
+                                                                                                                        </div>
+
+                                                                                                                        <div class="w-100"></div>
+
+                                                                                                                        <div class="col-sm-3">
+                                                                                                                            <label class="col-sm-12">Email notify</label>
+                                                                                                                        </div>
+                                                                                                                        
+                                                                                                                        <div class="col-sm-9">
+                                                                                                                            <div class="checkbox-fade fade-in-primary">
+                                                                                                                                <label>
+                                                                                                                                    <input type="checkbox" name="checkBoxEmailNotify" value="" class="input-danger" style="visibility: hidden">
+                                                                                                                                    <span class="cr">
+                                                                                                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                                                                    </span>
+                                                                                                                                    <span></span>
+                                                                                                                                </label>
+                                                                                                                            </div>
+                                                                                                                        
+                                                                                                                        </div>
+                                                                                                                     
+                                                                                                                        <div class="w-100"></div>
+
+                                                                                                                        <div class="col-sm-3">
+                                                                                                                            <label class="col-sm-12">SMS notify</label>
+                                                                                                                        </div>
+                                                                                                                        
+                                                                                                                        <div class="col-sm-9">
+                                                                                                                            <div class="checkbox-fade fade-in-primary">
+                                                                                                                                <label>
+                                                                                                                                    <input type="checkbox" name="checkBoxSMSNotify" value="" class="input-danger" style="visibility: hidden">
+                                                                                                                                    <span class="cr">
+                                                                                                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                                                                    </span>
+                                                                                                                                    <span></span>
+                                                                                                                                </label>
+                                                                                                                            </div>
+                                                                                                                        
+                                                                                                                        </div>
+
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                    
+                                                                                                        </div>
+
+                                                                                                        <button type="button" class="btn btn-primary clone-btn-right clone" style="display: inline-block;">
+                                                                                                            <i class="icofont icofont-plus"></i>
+                                                                                                        </button>
+                                                                                                        <button type="button" class="btn btn-default clone-btn-right delete" style="display: inline-block;">
+                                                                                                            <i class="icofont icofont-minus"></i>
+                                                                                                        </button>
+                                                                                                        
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </fieldset>
+                                                                                            <!-- <div class="form-group row">
+                                                                                                <div class="col-md-4 col-lg-2">
+                                                                                                    <label for="name-2" class="block">First name *</label>
+                                                                                                </div>
+                                                                                                <div class="col-md-8 col-lg-10">
+                                                                                                    <input id="name-2" name="name" type="text" class="form-control required">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="form-group row">
+                                                                                                <div class="col-md-4 col-lg-2">
+                                                                                                    <label for="surname-2" class="block">Last name *</label>
+                                                                                                </div>
+                                                                                                <div class="col-md-8 col-lg-10">
+                                                                                                    <input id="surname-2" name="surname" type="text" class="form-control required">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="form-group row">
+                                                                                                <div class="col-md-4 col-lg-2">
+                                                                                                    <label for="phone-2" class="block">Phone #</label>
+                                                                                                </div>
+                                                                                                <div class="col-md-8 col-lg-10">
+                                                                                                    <input id="phone-2" name="phone" type="number" class="form-control required phone">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="form-group row">
+                                                                                                <div class="col-md-4 col-lg-2">
+                                                                                                    <label for="date" class="block">Date Of Birth</label>
+                                                                                                </div>
+                                                                                                <div class="col-md-8 col-lg-10">
+                                                                                                    <input id="date" name="Date Of Birth" type="text" class="form-control required date-control">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="form-group row">
+                                                                                                <div class="col-md-4 col-lg-2">Select Country</div>
+                                                                                                <div class="col-md-8 col-lg-10">
+                                                                                                    <select class="form-control required">
+                                                                                                        <option>Select State</option>
+                                                                                                        <option>Gujarat</option>
+                                                                                                        <option>Kerala</option>
+                                                                                                        <option>Manipur</option>
+                                                                                                        <option>Tripura</option>
+                                                                                                        <option>Sikkim</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div> -->
+                                                                                        
+                                                                                        <h3> Settings </h3>
+                                                                                        <fieldset>
+                                                                                            <div class="form-group row">
+                                                                                                <label class="col-md-4 col-lg-6 col-form-label">Protocol</label>
+                                                                                            </div>
+                                                                                            
+                                                                                            <div class="form-group row">
+                                                                                                <div class="col-sm-9">
+                                                                                                    <div class="form-radio">
+                                                                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                                                                            <label>
+                                                                                                                <input type="radio" id="rdBtnMQTT" name="member" value="free" data-bv-field="member" checked="checked">
+                                                                                                                <i class="helper"></i>MQTT
+                                                                                                            </label>
+                                                                                                        </div>
+                                                                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                                                                            <label>
+                                                                                                                <input type="radio" id="rdBtnHTTP" name="member" value="personal" data-bv-field="member">
+                                                                                                                <i class="helper"></i>HTTP
+                                                                                                            </label>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            
+                                                                                        </fieldset>
+                                                                                        <h3> Final </h3>
+                                                                                        <fieldset>
+                                                                                            <div class="form-group row">
+                                                                                                <div class="col-md-4 col-lg-2">
+                                                                                                    <label for="Company-2" class="block">Company:</label>
+                                                                                                </div>
+                                                                                                <div class="col-md-8 col-lg-10">
+                                                                                                    <input id="Company-2" name="Company:" type="text" class="form-control required">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="form-group row">
+                                                                                                <div class="col-md-4 col-lg-2">
+                                                                                                    <label for="CountryW-2" class="block">Country</label>
+                                                                                                </div>
+                                                                                                <div class="col-md-8 col-lg-10">
+                                                                                                    <input id="CountryW-2" name="Country" type="text" class="form-control required">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="form-group row">
+                                                                                                <div class="col-md-4 col-lg-2">
+                                                                                                    <label for="Position-2" class="block">Position</label>
+                                                                                                </div>
+                                                                                                <div class="col-md-8 col-lg-10">
+                                                                                                    <input id="Position-2" name="Position" type="text" class="form-control required">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </fieldset>
+                                                                                    </form>
+                                                                                </section>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                <!-- Form wizard with validation card end -->
+
+
+
+
+
+
+                                                        </div>
+                                                        <!-- <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default waves-effect " data-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary waves-effect waves-light ">Save changes</button>
+                                                        </div> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+                                             <!-- Table start -->
+                                            <div class="card-block">
+                                                <div class="dt-responsive table-responsive">
+                                                    <table id="table-style-hover" class="table table-striped table-hover table-bordered nowrap">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>ID</th>
+                                                                <th>DEVICE NAME</th>
+                                                                <th>TYPE</th>
+                                                                <th>PROJECT</th>
+                                                                <th>STATION</th>
+                                                                <th>STATUS</th>
+                                                                <th>CREATED ON</th>
+                                                                <th class="tabledit-toolbar-column"></th></tr>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>1</td>
+                                                                <td>Humdity</td>
+                                                                <td>Humdity Sensor</td>
+                                                                <td>Bonsai Garden</td>
+                                                                <td>SG</td>
+                                                                <td>Fine</td>
+                                                                <td>5/5/2022</td>
+                                                                <td style="white-space: nowrap; width: 1%;"><div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
+                                                                    <div class="btn-group btn-group-sm" style="float: none;"><button type="button" class="tabledit-edit-button btn btn-primary waves-effect waves-light" style="float: none;margin: 5px;"><span class="icofont icofont-ui-edit"></span></button><button type="button" class="tabledit-delete-button btn btn-danger waves-effect waves-light" style="float: none;margin: 5px;"><span class="icofont icofont-ui-delete"></span></button></div>
+                                                                    <button type="button" class="tabledit-save-button btn btn-sm btn-success" style="display: none; float: none;">Save</button>
+                                                                    <button type="button" class="tabledit-confirm-button btn btn-sm btn-danger" style="display: none; float: none;">Confirm</button>
+                                                                    <button type="button" class="tabledit-restore-button btn btn-sm btn-warning" style="display: none; float: none;">Restore</button>
+                                                                </div></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>2</td>
+                                                                <td>Humdity</td>
+                                                                <td>Humdity Sensor</td>
+                                                                <td>Bonsai Garden</td>
+                                                                <td>SG</td>
+                                                                <td>Fine</td>
+                                                                <td>5/5/2022</td>
+                                                                <td style="white-space: nowrap; width: 1%;"><div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
+                                                                    <div class="btn-group btn-group-sm" style="float: none;"><button type="button" class="tabledit-edit-button btn btn-primary waves-effect waves-light" style="float: none;margin: 5px;"><span class="icofont icofont-ui-edit"></span></button><button type="button" class="tabledit-delete-button btn btn-danger waves-effect waves-light" style="float: none;margin: 5px;"><span class="icofont icofont-ui-delete"></span></button></div>
+                                                                    <button type="button" class="tabledit-save-button btn btn-sm btn-success" style="display: none; float: none;">Save</button>
+                                                                    <button type="button" class="tabledit-confirm-button btn btn-sm btn-danger" style="display: none; float: none;">Confirm</button>
+                                                                    <button type="button" class="tabledit-restore-button btn btn-sm btn-warning" style="display: none; float: none;">Restore</button>
+                                                                </div></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>Humdity</td>
+                                                                <td>Humdity Sensor</td>
+                                                                <td>Bonsai Garden</td>
+                                                                <td>SG</td>
+                                                                <td>Fine</td>
+                                                                <td>5/5/2022</td>
+                                                                <td style="white-space: nowrap; width: 1%;"><div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
+                                                                    <div class="btn-group btn-group-sm" style="float: none;"><button type="button" class="tabledit-edit-button btn btn-primary waves-effect waves-light" style="float: none;margin: 5px;"><span class="icofont icofont-ui-edit"></span></button><button type="button" class="tabledit-delete-button btn btn-danger waves-effect waves-light" style="float: none;margin: 5px;"><span class="icofont icofont-ui-delete"></span></button></div>
+                                                                    <button type="button" class="tabledit-save-button btn btn-sm btn-success" style="display: none; float: none;">Save</button>
+                                                                    <button type="button" class="tabledit-confirm-button btn btn-sm btn-danger" style="display: none; float: none;">Confirm</button>
+                                                                    <button type="button" class="tabledit-restore-button btn btn-sm btn-warning" style="display: none; float: none;">Restore</button>
+                                                                </div></td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <!-- <tfoot>
+                                                            <tr>
+                                                                <th>Name</th>
+                                                                <th>Position</th>
+                                                                <th>Office</th>
+                                                                <th>Age</th>
+                                                                <th>Start date</th>
+                                                                <th>Salary</th>
+                                                                <td style="white-space: nowrap; width: 1%;"><div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
+                                                                    <div class="btn-group btn-group-sm" style="float: none;"><button type="button" class="tabledit-edit-button btn btn-primary waves-effect waves-light" style="float: none;margin: 5px;"><span class="icofont icofont-ui-edit"></span></button><button type="button" class="tabledit-delete-button btn btn-danger waves-effect waves-light" style="float: none;margin: 5px;"><span class="icofont icofont-ui-delete"></span></button></div>
+                                                                    <button type="button" class="tabledit-save-button btn btn-sm btn-success" style="display: none; float: none;">Save</button>
+                                                                    <button type="button" class="tabledit-confirm-button btn btn-sm btn-danger" style="display: none; float: none;">Confirm</button>
+                                                                    <button type="button" class="tabledit-restore-button btn btn-sm btn-warning" style="display: none; float: none;">Restore</button>
+                                                                </div></td>
+                                                            </tr>
+                                                        </tfoot> -->
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Base style - Hover table end -->
+                                    </div>
+                                    <!-- Page-body end -->
+                                </div>
+                            </div>
+                            <div id="styleSelector">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Main-body end -->
+    <!-- Warning Section Starts -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 10]>
+<div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+    <div class="iew-container">
+        <ul class="iew-download">
+            <li>
+                <a href="http://www.google.com/chrome/">
+                    <img src="../files/assets/images/browser/chrome.png" alt="Chrome">
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img src="../files/assets/images/browser/firefox.png" alt="Firefox">
+                    <div>Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.opera.com">
+                    <img src="../files/assets/images/browser/opera.png" alt="Opera">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.apple.com/safari/">
+                    <img src="../files/assets/images/browser/safari.png" alt="Safari">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                    <img src="../files/assets/images/browser/ie.png" alt="">
+                    <div>IE (9 & above)</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+    <!-- Warning Section Ends -->
+    <!-- Required Jquery -->
+    <script type="text/javascript" src="libraries\bower_components\jquery\js\jquery.min.js"></script>
+    <script type="text/javascript" src="libraries\bower_components\jquery-ui\js\jquery-ui.min.js"></script>
+    <script type="text/javascript" src="libraries\bower_components\popper.js\js\popper.min.js"></script>
+    <script type="text/javascript" src="libraries\bower_components\bootstrap\js\bootstrap.min.js"></script>
+
+    <!-- j-pro js -->
+    <script type="text/javascript" src="libraries\assets\pages\j-pro\js\jquery.ui.min.js"></script>
+    <script type="text/javascript" src="libraries\assets\pages\j-pro\js\jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="libraries\assets\pages\j-pro\js\jquery-cloneya.min.js"></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="libraries\bower_components\jquery-slimscroll\js\jquery.slimscroll.js"></script>
+    <!-- modernizr js -->
+    <script type="text/javascript" src="libraries\bower_components\modernizr\js\modernizr.js"></script>
+    <script type="text/javascript" src="libraries\bower_components\modernizr\js\css-scrollbars.js"></script>
+    <!--Forms - Wizard js-->
+    <script src="libraries\bower_components\jquery.cookie\js\jquery.cookie.js"></script>
+    
+    <script src="libraries\bower_components\jquery.steps\js\jquery.steps.js"></script>
+    <!-- <script src="{% static 'libraries\bower_components\jquery.steps\js\jquery.steps.fix.js' %}"></script> -->
+    <script src="libraries\bower_components\jquery-validation\js\jquery.validate.js"></script>
+    <!-- Validation js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script type="text/javascript" src="libraries\assets\pages\form-validation\validate.js"></script>
+   
+    <!-- data-table js -->
+    <script src="libraries\bower_components\datatables.net\js\jquery.dataTables.min.js"></script>
+    <script src="libraries\bower_components\datatables.net-buttons\js\dataTables.buttons.min.js"></script>
+    <script src="libraries\assets\pages\data-table\js\jszip.min.js"></script>
+    <script src="libraries\assets\pages\data-table\js\pdfmake.min.js"></script>
+    <script src="libraries\assets\pages\data-table\js\vfs_fonts.js"></script>
+    <script src="libraries\bower_components\datatables.net-buttons\js\buttons.print.min.js"></script>
+    <script src="libraries\bower_components\datatables.net-buttons\js\buttons.html5.min.js"></script>
+    <script src="libraries\bower_components\datatables.net-bs4\js\dataTables.bootstrap4.min.js"></script>
+    <script src="libraries\bower_components\datatables.net-responsive\js\dataTables.responsive.min.js"></script>
+    <script src="libraries\bower_components\datatables.net-responsive-bs4\js\responsive.bootstrap4.min.js"></script>
+    <!-- i18next.min.js -->
+    <script type="text/javascript" src="'libraries\bower_components\i18next\js\i18next.min.js"></script>
+    <script type="text/javascript" src="libraries\bower_components\i18next-xhr-backend\js\i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript" src="libraries\bower_components\i18next-browser-languagedetector\js\i18nextBrowserLanguageDetector.min.js"></script>
+    <script type="text/javascript" src="libraries\bower_components\jquery-i18next\js\jquery-i18next.min.js"></script>
+   
+    <!-- Custom js -->
+    <script src="libraries\assets\pages\data-table\js\data-table-custom.js"></script>
+    <script src="libraries\assets\pages\forms-wizard-validation\form-wizard.js"></script>
+    <script src="libraries\assets\js\pcoded.min.js"></script>
+    <script src="libraries\assets\js\vartical-layout.min.js'"></script>
+    <script src="libraries\assets\js\jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="libraries\assets\js\script.js"></script>
+    <script type="text/javascript" src="libraries\assets\pages\j-pro\js\custom\cloned-form.js"></script>
+
+    <script>
+        // $("#example-advanced-form").validate({
+        //     debug: true
+        // });
+        var modalHtml = "";
+        window.addEventListener("load", function(){
+            modalHtml = document.getElementById("addDeviceModal").innerHTML.toString()
+        });
+       
+        $('#addDeviceModal').on('hidden.bs.modal', function () {
+        // $('.modal-body').find('input').val('');
+            $("#addDeviceModal").html(modalHtml);
+});
+    </script>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+</body>
+
+</html>
